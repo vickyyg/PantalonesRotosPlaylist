@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./main.css">
+    
+    
+</head>
+<body>
+    <main class="player">
+        <h1 class="title" id="title"></h1>
+        
+        <!---- Cover -->
+        <img src="" alt="" class="cover" id="cover">
+
+        <!---- Audio HTML media element -->
+        <audio src="" id="audio"></audio>
+
+        <!--- Progress bar-->
+        <div id="progress-container" class="progress-container">
+            <section id="progress" class="progress"></section>
+        </div>
+        
+        <!--- Controls -->
+        <section class="controls">
+            <button class="back">
+                <i id="prev" class="fa fa-backward"></i>
+            </button>
+            <button class="play">
+                <i id="play" class="fa fa-play"></i>
+            </button>
+            <button class="next">
+                <i id="next" class="fa fa-forward"></i>
+            </button>
+        </section>
+
+        <!--- Song List --->
+
+        <ul class="songs" id="songs">
+            <!-- <li><a  href="#">1</a></li>
+            <li><a class="active" href="#">2</a></li>
+            <li><a href="#">3</a></li> -->
+        </ul>
+        <script src="./main.js"></script>
+    </main>
+    
+</body>
+</html>

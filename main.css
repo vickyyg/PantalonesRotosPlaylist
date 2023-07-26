@@ -1,0 +1,80 @@
+* {box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(179, 162, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    max-width: 768px;
+    min-width: 320px;
+    background-image: linear-gradient(black, gray);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+}
+
+.cover {
+    width: 128px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.progress-container {
+    height: .6rem;
+    background-color: wheat;
+    margin-bottom: 1rem;
+}
+
+.progress{
+    background-color: blueviolet;
+    width: 0%;
+    height: 100%;
+    
+}
+
+.controls{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 1rem;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.controls i {
+    font-size: 1.7rem;
+    color: beige;
+}
+
+.songs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.songs li{
+    margin-bottom: 1rem;
+}
+
+.songs a {
+    color: rgb(180, 178, 178);
+    text-decoration: none;
+}
+
+.songs a.active{
+    color: white;
+}
